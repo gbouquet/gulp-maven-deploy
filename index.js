@@ -1,6 +1,6 @@
 'use strict';
 var through = require('through2');
-var gmd = require('maven-deploy');
+var gmd = require('mvn-deploy');
 
 var deploy = function(remote, options){
 	options = options || {};
