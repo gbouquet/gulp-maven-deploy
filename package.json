@@ -1,31 +1,29 @@
 {
-  "name": "gulp-mvn-deploy",
-  "version": "0.0.2",
+  "name": "gulp-maven-deploy",
+  "version": "0.0.3",
   "description": "Simple gulp plugin for the maven-deploy module",
   "main": "index.js",
   "scripts": {
-  	"test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "keywords": [
-  	"maven",
-  	"gulp",
-  	"gulp-plugin",
-  	"deploy"
+    "maven",
+    "gulp",
+    "gulp-plugin",
+    "deploy"
   ],
-  "homepage": "https://github.com/mythx/gulp-maven-deploy",
-  "bugs": "https://github.com/mythx/gulp-maven-deploy/issues",
+  "homepage": "https://github.com/gbouquet/gulp-maven-deploy",
+  "bugs": "https://github.com/gbouquet/gulp-maven-deploy/issues",
   "repository": {
-  	"type": "git",
-    "url": "git@github.com:mythx/gulp-maven-deploy.git"
+    "type": "git",
+    "url": "git@github.com:gbouquet/gulp-maven-deploy.git"
   },
-  "author": "FINN.no AS",
-  "contributors": [
-  	"Espen Dalløkken <espen.dallokken@finn.no>"
-  ],
+  "author": "Gaétan Bouquet",
   "licence": "MIT",
   "dependencies": {
-    "maven-deploy": "0.0.2",
-    "through2": "^0.4.1"  	
+    "gulp-util": "^3.0.0",
+    "maven-deploy": "gbouquet/maven-deploy",
+    "through2": "^0.4.1"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
